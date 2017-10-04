@@ -457,7 +457,7 @@ span.text-content {
     width: 100%;
     height: 100%;
    }
-   .dropdown-menu{
+   .navbar-collapse.in .dropdown-menu{
     position: relative;
     float: none;
     border:0;

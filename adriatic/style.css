@@ -1,0 +1,112 @@
+/*
+Theme Name: Adriatic
+Theme URI: http://www.adriatic.com.au
+Description: Responsive Site
+Author: Ivy Cartagenas
+Author URI: http://www.wickedwebdesign.com.au
+Version: 1.0
+Tags: responsive, bootstrap
+*/
+
+#header-banner.hire.post-2460{
+background-image: url("/wp-content/uploads/2016/03/lounge4-bg.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+min-height:400px;
+}
+#header-banner.hire.post-2460 .headbg{
+background:#fff;
+opacity:0.7;
+padding:5px 30px 20px;
+}
+#header-banner.hire.post-2460 h2{
+color:#000000;
+font-family: "Helvetica Neue",Arial,sans-serif;
+font-weight:100;
+}
+.single-product .carousel-inner .carousel-caption{
+   background: #ffffff;
+    color: #000;
+    font-family: 'Helvetica Neue',Arial,sans-serif;
+    opacity: 0.7;
+    padding: 5px 30px 20px;
+    text-align: left;
+    text-shadow: unset;
+    left: 10%;
+    right: 40%;
+    top:40px;
+    bottom:auto;
+}
+.rev_slider .banner-title{
+    background: #ffffff;
+    color: #000;
+    font-family: 'Helvetica Neue',Arial,sans-serif;
+    opacity: 0.7;
+    padding: 5px 30px 20px;
+    text-align: left;
+    text-shadow: unset;
+    min-width: 50%;
+
+}
+.single-product .carousel-inner .carousel-caption h1,
+.rev_slider .banner-title h1{
+   font-family: 'Helvetica Neue',Arial,sans-serif;
+   font-size:55px;
+   font-weight:100;
+}
+.structdetails.infowar {
+    margin-bottom: 20px;
+}
+#features .infowar h3{
+border-bottom:0;
+font-size:22px;
+}
+#features .infowar img{
+width:auto;
+}
+#features .infowar img.alignleft{
+float:left;
+margin-right:15px;
+}
+.room-choice b {float: left;  width: 30%;}
+.sofas img {/*max-height:190px;*/}
+.sofas .col-md-4 img {min-height:200px; max-height:200px;}
+
+#big-product div.shareprints_container{margin-top:0px;}
+/*#big-product div.container img {
+	width:55%;
+}*/
+
+#more-details img.au-made {
+    position: absolute;
+    right: 50px;
+    width: auto;
+}
+footer a{color:#ffffff;}
+/*@media (max-width:767px) {
+#big-product div.container img { width:100%; }
+}*/
+
+.shareprints_thumb{
+border:1px solid #d9d9d9;}
+
+@media (max-width:767px) {
+.single-product .carousel-inner .carousel-caption {left:5% !important; right:5% !important;}
+.single-product .carousel-inner .carousel-caption h1 {font-size:42px !important;}
+img.img-responsive{width:100%;}
+.middle .row h4 {padding:0 18px;}
+
+}
+@media (max-width: 867px){
+    #more-details img.au-made {
+    margin: 0 50%;
+    position: relative;
+    width: auto;
+}
+#header-banner.hire.post-2460{
+min-height:auto !important;
+}
+}
+
+
